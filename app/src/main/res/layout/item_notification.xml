@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:padding="8dp">
+
+    <!-- Avatar của người gửi thông báo -->
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="5dp"
+        app:cardCornerRadius="25dp">
+
+        <ImageView
+            android:id="@+id/ivAvatarNotify"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:contentDescription="Avatar"
+            android:scaleType="centerCrop"
+            android:src="@drawable/img_default_avatar" />
+    </androidx.cardview.widget.CardView>
+    <!-- Nội dung thông báo -->
+    <TextView
+        android:id="@+id/tvNotificationContent"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_weight="1"
+        android:text="username đã thích bài viết của bạn."
+        android:textSize="14sp" />
+
+    <!-- Thời gian -->
+    <TextView
+        android:id="@+id/tvTimeNotify"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1 giờ trước"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="12sp" />
+</LinearLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/ivSinglePostImage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:contentDescription="Ảnh bài viết" />
+
+    <!-- Icon heart hiển thị khi double tap -->
+    <ImageView
+        android:id="@+id/ivHeartTab"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:src="@drawable/ic_heart_tym"
+        android:visibility="gone"
+        android:contentDescription="Heart icon" />
+
+    <!-- Số trang ở góc phải trên -->
+    <TextView
+        android:id="@+id/tvPageNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|end"
+        android:layout_margin="8dp"
+        android:text="1/3"
+        android:textColor="@android:color/white"
+        android:textSize="12sp"
+        android:background="@drawable/page_number_background"
+        android:padding="4dp" />
+</FrameLayout>

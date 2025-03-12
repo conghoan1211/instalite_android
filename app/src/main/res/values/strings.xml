@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">InstaLite</string>
+
+    <!-- string for showing the text "Login -->
+    <string name="forgot"><font color='c4c4c4'>Forgot your login details? </font><b>Get help logging in.</b></string>
+    <string name="policy_signup"><font color='c4c4c4'>By signing up, you agree to our  </font><b>Terms, Data Policy and Cookies Policy.</b></string>
+
+    <string name="sign_up"><font color='c4c4c4'>Dont have an account? </font><b color='c4c4c4'>Sign up.</b></string>
+    <string name="login_hint"><font color='c4c4c4'>Have an account? </font><b color='3897f0'>Log in.</b></string>
+</resources>

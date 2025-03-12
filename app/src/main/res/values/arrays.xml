@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="privacy_options">
+        <item>Công khai</item>
+        <item>Bạn bè</item>
+        <item>Chỉ mình tôi</item>
+    </string-array>
+</resources>
